@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contact</title>
+    <style>
+        body {
+            background-color: #5840ef;
+        }
+        #main{
+            margin: auto;
+            display: flex;
+            padding: 20px;
+            font-weight: bold;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            width: 800px;
+            height: 370px;
+            margin: auto;
+            border-radius: 10px;
+            margin-top: 100px;
+        }
+        #two img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #two h1{
+            text-align: center;
+            font-weight: bold;
+            color: #7e50ed;
+            font-family: "arial";
+            font-size: 30px;
+            line-height: 5px;
+        }
+        img{
+            width: 300px;
+            height: 270px;
+        }
+        .color{
+            filter:hue-rotate(60grad);
+        }
+        .two{
+            margin-left: 60px;
+            font-weight: bold;
+        }
+        input{
+            width: 100%;
+        }
+        button{
+            height: 50px;
+            background-color: #7b47e4;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="">
+<div id="main">
+    <div id="two">
+        <h1>CONTACT US</h1>
+        <p style="font-weight: bold;">Or reach out manually to <a href="uifresh.net@gmail.com" style="text-decoration: none">uifresh.net@gmail.com</a></p>
+        <img src="graphics/plane.png" alt="" class="color">
+    </div>
+    <div class="two">
+            <label for="mail">Email Address</label>
+        <br>
+            <input type="email" id="mail">
+        <p style="color: #744bed; line-height: 5px">We'll never share your email with anyone else</p><br>
+            <label for="name">Your name</label>
+        <br>
+            <input type="text" id="name"><br><br>
+            <label for="message">Your Message</label>
+        <br>
+            <textarea id="message" cols="40" rows="5"></textarea><br>
+        <button type="submit">Send Message</button>
+    </div>
+</div>
+</form>
+</body>
+</html>
